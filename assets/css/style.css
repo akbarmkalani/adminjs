@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Mirza&display=swap");
+* {
+  font-family: "Mirza", cursive;
+  box-sizing: border-box;
+}
+* li {
+  list-style-type: none;
+}
+* a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #1A202E;
+}
+main > header {
+  /* cart */
+}
+main > header .cart {
+  transition: 0.4s;
+  opacity: 0;
+  overflow: hidden;
+  background-color: #a3a9b5;
+  color: #1A202E;
+  left: 20px;
+  top: 80px;
+  width: 205px;
+  border-radius: 9px;
+  z-index: 33;
+}
+main > header .cart ul > li > a {
+  color: #0c1019;
+  transform: 0.4s;
+}
+main > header .cart ul > li > a:hover {
+  color: #de3b0a;
+}
+main > header #hamburgerIcon {
+  cursor: pointer;
+}
+main > header > section:nth-of-type(1) > div > h1 {
+  transition: 0.4s;
+}
+@media (max-width: 600px) {
+  main > header > section:nth-of-type(1) {
+    border-bottom: 1px solid #828b9f;
+  }
+}
+main > header > section:nth-of-type(2) {
+  transition: 0.4s;
+}
+main > header > section:nth-of-type(2) > section > span > i {
+  transition: 0.4s;
+  cursor: pointer;
+}
+main > header > section:nth-of-type(2) > section > span > i:hover {
+  color: #de3b0a !important;
+}
+main > header > section:nth-of-type(2) > section > div {
+  width: 120px;
+}
+main > header > section:nth-of-type(2) > section > div > img {
+  width: 90px !important;
+  width: 90px !important;
+}
+main > .section_content {
+  height: auto;
+  background-color: #1A202E;
+}
+main > .section_content > aside {
+  top: 80px;
+  width: 100px;
+  height: 100vh;
+  transition: 0.4s;
+  background-color: #1A202E;
+}
+main > .section_content > aside > ul:nth-of-type(1) {
+  transition: 0.8s linear;
+}
+main > .section_content > aside > ul > li > a {
+  cursor: pointer;
+  display: flex;
+  color: #ced4da;
+  transition: 0.4s inherit linear;
+}
+main > .section_content > aside > ul > li > a:hover {
+  color: #de3b0a;
+}
+main > .section_content > aside > ul > li > a > span:nth-of-type(1) {
+  margin-left: 15px;
+  cursor: pointer;
+}
+main > .section_content > aside > ul > li > a > span:nth-of-type(2) {
+  margin-right: 10px;
+  transition: opacity 0.4s linear;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100px !important;
+}
+@media (max-width: 150px) {
+  main > .section_content > aside > ul > li > a > span:nth-of-type(2) {
+    border-bottom: 1px solid #828b9f;
+    display: none !important;
+  }
+}
+main > .section_content > div {
+  width: 100%;
+}
+
+.text {
+  display: none;
+}
+
+.fedIn {
+  display: flex;
+}
+
+.mySwiper {
+  height: 70vh;
+}
+.mySwiper .swiper-slide {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.mySwiper .swiper-slide > img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mySwiper .swiper-slide > figcaption {
+  /*    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: absolute; */
+}
+.mySwiper .swiper-slide > figcaption h4 {
+  font-family: Arial;
+  font-size: 16px;
+}
+.mySwiper .swiper-slide > figcaption button {
+  background-color: #de3b0a !important;
+}/*# sourceMappingURL=style.css.map */
